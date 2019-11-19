@@ -4,9 +4,10 @@
 
 The HPC (High Performance Computing) cluster is a central computation infrastructure at ISD. Using the SLURM cluster engine (same as on the LRZ cluster), you can run jobs, i.e. simple commands, scripts or arrays, on the CPU+GPU cluster. For training of neural networks, there is a dedicated training node with 2 large memory GPUs.
 
-This short documentation is written for cluster users in order to help with understanding the cluster structure and with usage. 
+The **[wiki](http://git.isd-muc.de:8080/DueringLab/Cluster_Wiki/wiki)** is written for cluster users in order to help with understanding the cluster structure and with usage. 
 
-> The documentation is **work in progress** and will be expanded over the coming weeks. **More detailed documentations are available elsewhere**, e.g. at the [Leibniz Rechenzentrum](https://doku.lrz.de/display/PUBLIC/SLURM+Workload+Manager). Most aspects will also apply to our cluster.
+> This documentation is **work in progress** and will be expanded over the coming weeks. **More detailed documentations are available elsewhere**, e.g. at the [Leibniz Rechenzentrum](https://doku.lrz.de/display/PUBLIC/SLURM+Workload+Manager). Most aspects will also apply to our cluster.
+
 
 > **Please always keep in mind:** For a smooth operation of the cluster, it is important that you **specify the correct hardware requirements** of your jobs. If you specify your resources too high, your jobs might block the cluster and unnecessarily delay jobs of other users.
     
