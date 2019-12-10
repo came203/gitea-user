@@ -24,7 +24,7 @@ The Linux-based cluster consists of a head node (or "login node", the entry poin
 | RAM | 128 GB | 256 GB per node |
 | Local scratch | 0 | 1 TB NVMe-SSD |
 | Networking | 10 Gbit | 10 Gbit |
-| GPUs | - | **Coming soon**: <br> NVidia Quadro RTX 5000 (16 GB), 6 nodes<br>2x NVidia Quadro RTX 6000 (24 GB), 1 node# |
+| GPUs | - | NVidia Quadro RTX 5000 (16 GB), 5 nodes<br>2x NVidia Quadro RTX 6000 (24 GB), 1 node# |
 
 The shared cluster storage is located on the "Bigfoot" Storage system.  
 One node (#) will be equipped with two large memory GPUs can be used for training of neural networks.
