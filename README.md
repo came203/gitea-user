@@ -18,7 +18,7 @@ The Linux-based cluster consists of a head node (or "login node", the entry poin
 
 |  | Head Node | Compute Nodes |
 | ---- | --------- | ---- |
-| Machines | 1 | 8 |
+| Machines | 1 | 9 |
 | CPU(s) | AMD EPYC "Rome" 7302P (16-Core) | 2x AMD EPYC "Rome" 7352 (24-Core)|
 | Physical cores | 0 | 48 per node, 384 in total |
 | RAM | 128 GB | 256 GB per node |
@@ -38,8 +38,7 @@ Software is handled via [environment modules](https://modules.readthedocs.io/en/
 ## Administrators
 
 To get more info or a cluster user account, please contact the cluster admins:  
-[Benno](mailto:benno.gesierich@med.uni-muenchen.de),
-[Miguel](mailto:Miguel.Caballero@med.uni-muenchen.de) or 
+[Benno](mailto:benno.gesierich@med.uni-muenchen.de) or 
 [Marco](mailto:marco.duering@med.uni-muenchen.de)
 
 &nbsp;
