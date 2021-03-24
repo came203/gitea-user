@@ -19,7 +19,7 @@
 #
 # The number of array tasks allowed to run simultaniously can be limited using the %N suffix,
 # where N is the number of active tasks. The following example would throttle a job array 
-# with 100 tasks by keeping only a 5 tasks active at a timestart:
+# with 100 tasks by keeping only 5 tasks active at a time:
 # sbatch --array=1-100%5 array.sh
 #
 # If you want to change the number of simultaneous tasks of an active job, you can use scontrol:
