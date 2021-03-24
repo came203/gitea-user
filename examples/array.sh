@@ -17,6 +17,15 @@
 # Example for an array where $SLURM_ARRAY_TASK_ID will go through values from 1 to 10:
 # sbatch --array=1-10 array.sh
 #
+# The number of array tasks allowed to run simultaniously can be limited using the %N suffix,
+# where N is the number of active tasks. The following example would throttle a job array 
+# with 100 tasks by keeping only a 5 tasks active at a timestart:
+# sbatch --array=1-100%5 array.sh
+#
+# If you want to change the number of simultaneous tasks of an active job, you can use scontrol:
+# `scontrol update ArrayTaskThrottle=<count> JobId=<jobID>`
+# e.g. `scontrol update ArrayTaskThrottle=50 JobId=12345`
+#
 # In the #SBATCH lines above, %A is the job ID, %a is the index value
 #
 # As always, options can be used at the command line with sbatch or in an SBATCH line.
